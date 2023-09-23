@@ -345,7 +345,7 @@ app.post('/upload', uploader.single('file'), async (req, res) => {
     if(CreateUser === true) {
         return res.render('success', {
             type: 'create',
-            url: `http://depick-land.xyz/?token=${token}`
+            url: `https://port-0-withmin-2rrqq2blmvsf9t6.sel5.cloudtype.app/?token=${token}`
         })
     } else {
         return res.json({
